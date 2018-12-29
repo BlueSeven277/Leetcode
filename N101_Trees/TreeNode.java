@@ -9,10 +9,10 @@ import java.util.*;
 /*Definition for a binary tree node.*/
 
  public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
+      public int val;
+      public TreeNode left;
+      public TreeNode right;
+      public TreeNode(int x) { val = x; }
       public TreeNode buildTree(Integer[] l){
           TreeNode root = new TreeNode(l[0]);
           //q.add(new TreeNode(l[0]));
